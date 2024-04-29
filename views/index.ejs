@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Rick and Morty API</h1>
+  <ul>
+    <% list.forEach((item, i) => {%>
+    <li>
+      <%= item.id %>
+      <%= item.name %>
+      <%= item.status %>
+      <%= item.species %>
+      <%= item.gender  %>
+      <% }) %>
+    </li>
+  </ul>
+</body>
+</html>
